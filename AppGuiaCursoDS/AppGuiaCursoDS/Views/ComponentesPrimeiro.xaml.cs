@@ -34,6 +34,8 @@ namespace AppGuiaCursoDS.Views
                     ValoresAtitudes = "Incentivar o diálogo e a interlocução. • Responsabilizar-se pela produção, utilização e " +
                                         "divulgação de informações. • Estimular a proatividade. ",
                 };
+
+                await Navigation.PushAsync(new VerComponente(c));
             }
             catch (Exception ex)
             {
@@ -55,6 +57,7 @@ namespace AppGuiaCursoDS.Views
                     ValoresAtitudes = "• Estimular a organização. • Incentivar atitudes de autonomia. • Fortalecer a persistência " +
                                         "e o interesse na resolução de situações-problema. "
                 };
+                await Navigation.PushAsync(new VerComponente(c));
             }
             catch (Exception ex)
             {
@@ -75,6 +78,7 @@ namespace AppGuiaCursoDS.Views
                     ValoresAtitudes = "Estimular a organização. • Fortalecer a persistência e o interesse na resolução " +
                                         "de situações-problema. • Promover ações que considerem o respeito às normas estabelecidas."
                 };
+                await Navigation.PushAsync(new VerComponente(c));
             }
             catch (Exception ex)
             {
@@ -95,6 +99,7 @@ namespace AppGuiaCursoDS.Views
                     ValoresAtitudes = "Estimular a orgranização. • Incentivar a criativdade. • Fortalecer a persistência " +
                                         "e o interesse na resolução de situações-problema. "
                 };
+                await Navigation.PushAsync(new VerComponente(c));
             }
             catch (Exception ex)
             {
@@ -115,6 +120,7 @@ namespace AppGuiaCursoDS.Views
                     ValoresAtitudes = "Incentivar a criatividade. • Respeitar as manifestações culturais de outros povos. " +
                                         "• Incentivar ações que promovam a cooperação. "
                 };
+                await Navigation.PushAsync(new VerComponente(c));
             }
             catch (Exception ex)
             {
@@ -136,6 +142,7 @@ namespace AppGuiaCursoDS.Views
                                         "e o interesse na resolução de situações-problema".
 
                 };
+                await Navigation.PushAsync(new VerComponente(c));
             }
             catch (Exception ex)
             {
@@ -156,6 +163,7 @@ namespace AppGuiaCursoDS.Views
                     ValoresAtitudes = "Desenvolver a criticidade. • Incentivar comportamentos éticos. • Promover " + 
                                         "ações que considerem o respeito às normas estabelecidas. "
                 };
+                await Navigation.PushAsync(new VerComponente(c));
             }
             catch (Exception ex)
             {
@@ -178,6 +186,7 @@ namespace AppGuiaCursoDS.Views
                     ValoresAtitudes = "Incentivar a criatividade. • Incentivar comportamentos éticos. • Fortalecer a persistência e " + 
                                         "o interesse na resol~ção de situações-problema. "
                 };
+                await Navigation.PushAsync(new VerComponente(c));
             }
             catch (Exception ex)
             {

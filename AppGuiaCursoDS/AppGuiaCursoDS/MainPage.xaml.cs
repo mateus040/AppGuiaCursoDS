@@ -20,6 +20,19 @@ namespace AppGuiaCursoDS
             Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Inicial)));
         }
 
+        private async void Open_Inicial(object sender, EventArgs e)
+        {
+            try
+            {
+                Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Inicial)));
+                IsPresented = false;
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ops!", ex.Message, "OK");
+            }
+        }
+
         private async void Open_Primeiro(object sender, EventArgs e)
         {
             try

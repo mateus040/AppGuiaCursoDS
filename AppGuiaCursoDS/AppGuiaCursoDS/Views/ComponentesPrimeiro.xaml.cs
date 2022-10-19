@@ -139,7 +139,7 @@ namespace AppGuiaCursoDS.Views
                     AtribuicoesResponsabilidades = "Desenvolver sites para Web",
 
                     ValoresAtitudes = "Incentivar a criatividade. • Estimular a organização. • Fortalecer a persistência " +
-                                        "e o interesse na resolução de situações-problema".
+                                        "e o interesse na resolução de situações-problema"
 
                 };
                 await Navigation.PushAsync(new VerComponente(c));

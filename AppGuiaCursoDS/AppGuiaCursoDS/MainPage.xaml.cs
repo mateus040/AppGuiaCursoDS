@@ -18,6 +18,8 @@ namespace AppGuiaCursoDS
             InitializeComponent();
 
             Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Inicial)));
+
+            logo.Source = ImageSource.FromResource("AppGuiaCursoDS.logo1.png");
         }
 
         private async void Open_Inicial(object sender, EventArgs e)

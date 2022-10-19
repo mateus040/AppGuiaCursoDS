@@ -15,6 +15,8 @@ namespace AppGuiaCursoDS
         public Inicial()
         {
             InitializeComponent();
+
+            logo.Source = ImageSource.FromResource("AppGuiaCursoDS.logo1.png");
         }
     }
 }

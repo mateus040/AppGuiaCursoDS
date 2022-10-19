@@ -17,7 +17,7 @@
             <Label Text="Rua Humaitá, nº1090 - Jaú/SP"
                    VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
 
-            <Button Text="Tel: (14) 3622-3566" Margin="10" />
+            <Button Text="Tel: (14) 3622-3566" Margin="10" BackgroundColor="#AB0209" TextColor="White" />
 
             <Label Text="E-mail: e070dir@cps.sp.gov.br" VerticalOptions="CenterAndExpand"
                    HorizontalOptions="CenterAndExpand" />

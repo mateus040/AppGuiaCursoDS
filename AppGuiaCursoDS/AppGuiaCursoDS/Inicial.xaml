@@ -13,6 +13,8 @@
 
             <StackLayout Padding="10">
 
+                <Image x:Name="logo" Aspect="AspectFit" />
+
                 <Label Text="Olá! Este é o App para guiá-lo pelo Curso Técnico em Desenvolvimento de Sistemas"
                        FontSize="Medium"
                        Style="{ StaticResource textoCentralizado }" />
@@ -25,10 +27,10 @@
                        TextColor="#AB0209"
                        Style="{ StaticResource textoCentralizado }" />
 
-                <!-- <Image Source="foto_segundo_modulo_2_sem_2019" /> -->
-
-                <Label Text="Este App foi desenvolvido sob a orientação do Prof. Tiago a. Silva"
+                <Label Text="Este App foi desenvolvido sob a orientação do Prof. Tiago a. Silva e do Prof. Marcos Rogério Pagagnotti"
                        Style="{ StaticResource textoCentralizado }" />
+
+
 
             </StackLayout>
             

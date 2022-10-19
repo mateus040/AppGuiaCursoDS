@@ -20,7 +20,16 @@
                 <Setter Property="TextColor" Value="#FFFFFF" />
                 <Setter Property="CornerRadius" Value="5" />
             </Style>
-            
+
+            <Style x:Key="textoCentralizado" TargetType="Label">
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            </Style>
+
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="#AB0209"/>
+                <Setter Property="BarTextColor" Value="#FFF"/>
+            </Style>
+
         </ResourceDictionary>
         
     </Application.Resources>
